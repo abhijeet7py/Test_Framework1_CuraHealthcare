@@ -1,21 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4d13bd8-d77c-4679-bed1-c928256390c6" name="Changes" comment="" />
+    <list default="true" id="f4d13bd8-d77c-4679-bed1-c928256390c6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/tests/pageObjects/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/pageObjects/tests/curaLoginTest/Prod/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/pageObjects/tests/curaLoginTest/Prod/test_Cura_Login.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/pageObjects/tests/curaLoginTest/Prod/test_Cura_Login_LP.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/pageObjects/tests/curaLoginTest/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Requirement.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Requirement.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/constants/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/constants/constants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/pageObjects/pom/landing_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/pageObjects/pom/landing_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/pageObjects/pom/login_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/pageObjects/pom/login_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/utils/common_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/utils/common_utils.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;abhijeet7py&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/abhijeet7py/Test_Framework1_CuraHealthcare.git&quot;,
+    &quot;accountId&quot;: &quot;4c5ff3d7-ec22-4e5a-8733-4c444265bdc5&quot;
+  }
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/tests/constants/constants.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/tests/pageObjects/pom/landing_page.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/tests/pageObjects/pom/login_page.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/tests/pageObjects/tests/curaLoginTest/Prod/test_Cura_Login.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/tests/pageObjects/tests/curaLoginTest/Prod/test_Cura_Login_LP.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/tests/utils/common_utils.py" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2twdTVFvEM4y58MdPOHZoUstXDD" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.Python tests in test_Cura_Login.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.common_utils.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;
+  }
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
