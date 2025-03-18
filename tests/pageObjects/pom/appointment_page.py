@@ -21,13 +21,15 @@ class Appointment_Page:
     date_control = (By.ID,"txt_visit_date")
     comment = (By.ID,"txt_comment")
     book_appointment = (By.ID,"btn-book-appointment")
+    confirmation = (By.XPATH,"//p[@class = 'lead' and contains(text(),'appointment has been booked')]")
 
     #Page Actions
     # Write functions to access page locators
 
     def get_facility(self,value):
-        select = self.driver.find_element(*Appointment_Page.facility_selectbox)
-        select.select_by_value(value)
+        select_element = self.driver.find_element(*Appointment_Page.facility_selectbox)
+        select = Select(select_element)
+        select.select_by_visible_text(value)
 
     def get_checkbox(self):
         return self.driver.find_element(*Appointment_Page.checkbox)
@@ -49,3 +51,10 @@ class Appointment_Page:
 
     def get_appoinment(self):
         return self.driver.find_element(*Appointment_Page.book_appointment)
+
+    def get_confirmation_text(self):
+        try:
+            return self.driver.find_element(*self.confirmation).text
+        except Exception as e:
+            print(f"Confirmation text not found: {e}")
+            return None
