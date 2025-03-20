@@ -24,4 +24,4 @@
 pytest -n auto tests/vwoLoginTests/pom/test_*
 
 ### How to run Testcase parallel ?
-pytest -n auto tests/test/vwoLoginTests/test_vwo_login.py
+pytest -n auto 
